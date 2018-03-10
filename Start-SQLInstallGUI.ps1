@@ -47,7 +47,7 @@ $xaml.SelectNodes('//*[@Name]') | ForEach-Object { Set-Variable -Name ($_.Name) 
 # Add events to Form Objects
 #===========================================================================
 $btnExit.Add_Click({$form.Close()})
-$btnReset.Add_Click({$form.Reset() } )
+
 
 #===========================================================================
 # Stores WMI values in WMI Object from Win32_Operating System Class
